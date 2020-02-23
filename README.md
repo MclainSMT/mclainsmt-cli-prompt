@@ -1,14 +1,13 @@
 # **mclainsmt-cli-prompt** (version 1.0.1)
-
-## **What is mclainsmt-cli-prompt?**
-
 A simple way to synchronously interact with your user through the command-line.
+
+## **What is mclainsmt-cli-prompt ?**
 
 Synchronously interact with your users through the command-line with out the head-ache of asynchronous code calls.
 
-**mclainsmt-cli-prompt** provides a simple, one-function API for 'synchronously' prompting (questioning) a user through their console/terminal, then reading in that user's input (answer).  
+**mclainsmt-cli-prompt** provides a simple, one-function API for 'synchronously' prompting (questioning) a user through the command-line, then reading in that user's input (answer).  
 
-**mclainsmt-cli-prompt** allows you to interact with your users through their console or terminal in a more natural (line-by-line) way.
+With mclainsmt-cli-prompt, you'll be able to interact with your users through their console or terminal in a more natural (line-by-line) way.
 
 ## **Installation**
 
