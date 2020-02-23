@@ -8,9 +8,9 @@ module.exports = function(question, testMode) {
         
         let childProcess_returnValue = null;
         
-        // make sure when we start node process through execSync()
+        // make sure when we start the node process through execSync()
         // that were doing so from the same directory index.js
-        // sit's in...S 
+        // sit's in...
         process.chdir(__dirname);
         
         // 'testMode' put's this function into test mode...

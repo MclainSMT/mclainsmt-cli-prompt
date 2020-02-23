@@ -2,7 +2,7 @@
 
 ## **What is mclainsmt-cli-prompt?**
 
-A simple way to synchronously interact with your user through the command-line!!!
+A simple way to synchronously interact with your user through the command-line.
 
 Synchronously interact with your users through the command-line with out the head-ache of asynchronous code calls.
 
