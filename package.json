@@ -1,0 +1,27 @@
+{
+  "name": "mclainsmt-cli-prompt",
+  "version": "1.0.1",
+  "description": "Synchronously interact with your users through their console/terminal with out the head-ache of asynchronous code calls.  mclainsmt-cli-prompt provides a simple, one-function API for 'synchronously' prompting (questioning) a user through their console/terminal, then reading in that user's input (answer).  mclainsmt-cli-prompt allows you to interact with your users through their console/terminal in a more natural (line-by-line) way.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "readline-sync",
+    "readline",
+    "synchronous readline",
+    "synchronous terminal input processing",
+    "synchronous console input processing",
+    "readline",
+    "synchronous",
+    "sync terminal input",
+    "read input one line at a time",
+    "console input",
+    "cli input processing",
+    "sync cli prompt",
+    "cli prompt",
+    "cli-prompt"
+  ],
+  "author": "Jeffery Chae Mclain - (Founder & CEO of Mlclain SMT)",
+  "license": "Apache-2.0"
+}

@@ -1,0 +1,10 @@
+# keep these files & folders out of the public repository
+
+# folders...
+node_modules/
+.npmignore/
+trash/
+.vscode/
+
+# files
+cli-prompt-test.js
