@@ -15,10 +15,7 @@ With mclainsmt-cli-prompt, you'll be able to interact with your users through th
 > npm install mclainsmt-cli-prompt
 ~~~
 
-## **Example Usage**
-
-With **mclainsmt-cli-prompt** you can synchronously read in any data entered by the user - (line-by-line) from the command line.
-
+## **Simple Example**
 ~~~javascript
 // Let's prompt the user from the command-line for his/her full name...
 
@@ -43,9 +40,9 @@ console.log("Your full name is: " + fullName);
 
 ## **Unit Testing**
 
-**mclainsmt-cli-prompt** was designed, implemented, and tested on a Windows 10 machin, running Node v12.13.1. 
+**mclainsmt-cli-prompt** was designed, implemented, and tested on a Windows 10 machine, running Node v12.13.1. 
 
-We strongly suggest that you run the provided unit tests to make sure that every thing will work as expected for your particular platform.
+We strongly suggest that you run the provided unit tests to make sure that every thing will work as expected for the platforms your targeting.
 
 Make sure you install 'mocha' first...
 ~~~javascript
