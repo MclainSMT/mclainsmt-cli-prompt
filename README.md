@@ -31,11 +31,11 @@ let lastName = cliPrompt("Enter you last name");
 
 // Next we'll concatenate each part of the user's name together...
 
-let fullName = firstName + middleName + lastName;
+let fullName = `${firstName} ${middleName} ${lastName}`;
 
 // Finally, we'll display their name on the command line through their console or terminal...
 
-console.log("Your full name is: " + fullName);
+console.log("\nYour full name is: " + fullName);
 ~~~
 
 ## **Unit Testing**
