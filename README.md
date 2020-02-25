@@ -18,7 +18,7 @@ With mclainsmt-cli-prompt, you'll be able to interact with your users through th
 ## **API Examples**
 'require("mclainsmt-cli-prompt")' returns a function that takes a string argument (the prompt) and returns a string (the response/answer) typed by the user on the command line...
 - input: 'the prompt' [string type],
-- return: 'the user response' (answer) [string type] 
+- return: 'the user's response/answer' [string type] 
 
 **Example 1:** Let's prompt the user from the command-line for his/her full name...
 ~~~javascript
