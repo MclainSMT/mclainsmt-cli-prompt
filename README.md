@@ -84,5 +84,5 @@ Make sure you install 'mocha' first...
 > mocha test
  ~~~
 
- # **Maintainer**
+ ## **Maintainer**
  ### [Jeffery Chae Mclain (Founder & CEO of **MclainSMT**)](https://github.com/MclainSMT)
