@@ -85,4 +85,4 @@ Make sure you install 'mocha' first...
  ~~~
 
  ## **Maintainer**
- ### [Jeffery Chae Mclain (Founder & CEO of **MclainSMT**)](https://github.com/MclainSMT)
+ [Jeffery Chae Mclain (Founder & CEO of **MclainSMT**)](https://github.com/MclainSMT)
