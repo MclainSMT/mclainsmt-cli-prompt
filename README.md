@@ -15,12 +15,16 @@ With mclainsmt-cli-prompt, you'll be able to interact with your users through th
 > npm install mclainsmt-cli-prompt
 ~~~
 
-## **Examples**
+## **API Examples**
+'require("mclainsmt-cli-prompt")' returns a function that takes a string argument (the prompt) and returns a string (the response/answer) typed by the user on the command line...
+- input: 'the prompt' [string type],
+- return: 'the user response' (answer) [string type] 
+
 **Example 1:** Let's prompt the user from the command-line for his/her full name...
 ~~~javascript
 const cliPrompt = require("mclainsmt-cli-prompt");
 
-// lets prompt the user to enter each part of their name...
+// let's prompt the user to enter each part of their name...
 
 let firstName = cliPrompt("Enter your first name:");
 
@@ -28,28 +32,29 @@ let middleName = cliPrompt("Ennter your middle name:");
 
 let lastName = cliPrompt("Enter you last name");
 
-// Next we'll concatenate each part of the user's name together...
+// String the full name together...
 
 let fullName = `${firstName} ${middleName} ${lastName}`;
 
-// Finally, we'll display their name on the command line through their console or terminal...
+// Output 'fullName'
 
 console.log("\nYour full name is: " + fullName);
 ~~~
 
-**Example 2:** Prompt the user to give a "Yes" or "No" answer 
-then loop back to the prompt (question) if the user
-gives any answer other than "Yes"...
+**Example 2:** Prompt the user with a "Yes" or "No" question.  If the user gives any answer except for "Yes" - loop back to the prompt (question).
 ~~~javascript
-
 const cliPrompt = require("mclainsmt-cli-prompt");
 
 console.clear();
 
+// Prompt the user repeatedly until they answer "Yes"
+
 while (cliPrompt("Is the Earth round? (Yes/No)").toUpperCase() != "YES") {
 
-    console.log("\nPlease try again...");
+    console.log("\nWrong answer, please try again...");
 }
+
+// User answered "Yes"..
 
 console.log("\nYOUR CORRECT!! :-)");
 ~~~
@@ -74,7 +79,7 @@ Make sure you install 'mocha' first...
 ~~~
 
 ~~~javascript
- // then run the test from the 'mclainsmt-cli-prompt' package folder...
+ // then run the test from the 'mclainsmt-cli-prompt' package folder within your project's 'node_modules' folder...
 
 > mocha test
  ~~~
