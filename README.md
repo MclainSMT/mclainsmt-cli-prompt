@@ -15,10 +15,9 @@ With mclainsmt-cli-prompt, you'll be able to interact with your users through th
 > npm install mclainsmt-cli-prompt
 ~~~
 
-## **Simple Example**
+## **Examples**
+**Example 1:** Let's prompt the user from the command-line for his/her full name...
 ~~~javascript
-// Let's prompt the user from the command-line for his/her full name...
-
 const cliPrompt = require("mclainsmt-cli-prompt");
 
 // lets prompt the user to enter each part of their name...
@@ -36,6 +35,23 @@ let fullName = `${firstName} ${middleName} ${lastName}`;
 // Finally, we'll display their name on the command line through their console or terminal...
 
 console.log("\nYour full name is: " + fullName);
+~~~
+
+**Example 2:** Prompt the user to give a "Yes" or "No" answer 
+then loop back to the prompt (question) if the user
+gives any answer other than "Yes"...
+~~~javascript
+
+const cliPrompt = require("mclainsmt-cli-prompt");
+
+console.clear();
+
+while (cliPrompt("Is the Earth round? (Yes/No)").toUpperCase() != "YES") {
+
+    console.log("\nPlease try again...");
+}
+
+console.log("\nYOUR CORRECT!! :-)");
 ~~~
 
 ## **Unit Testing**
