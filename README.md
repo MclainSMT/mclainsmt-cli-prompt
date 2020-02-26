@@ -79,7 +79,8 @@ Make sure you install 'mocha' first...
 ~~~
 
 ~~~javascript
- // then run the test from the 'mclainsmt-cli-prompt' package folder within your project's 'node_modules' folder
+ // then run the test from the 'mclainsmt-cli-prompt' package folder 
+ // within your project's 'node_modules' folder
 
 > mocha test
  ~~~
