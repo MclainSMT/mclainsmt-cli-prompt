@@ -73,13 +73,13 @@ Make sure you install 'mocha' first...
 ~~~
 
 ~~~javascript
-// or as a development dependency for your project folder
+// or as a development dependency within your project folder
 
 > npm install --save-dev mocha
 ~~~
 
 ~~~javascript
- // then run the test from the 'mclainsmt-cli-prompt' package folder within your project's 'node_modules' folder...
+ // then run the test from the 'mclainsmt-cli-prompt' package folder within your project's 'node_modules' folder
 
 > mocha test
  ~~~
