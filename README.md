@@ -1,5 +1,5 @@
 # **mclainsmt-cli-prompt** (version 1.0.1)
-A simple way to synchronously interact with your user through the command-line.
+A simple way to synchronously interact with your users through the command-line.
 
 ## **What is mclainsmt-cli-prompt ?**
 
