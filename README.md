@@ -47,7 +47,7 @@ const cliPrompt = require("mclainsmt-cli-prompt");
 
 console.clear();
 
-// Prompt the user repeatedly until they answer "Yes"
+// Prompt the user repeatedly until they answer "Yes"...
 
 while (cliPrompt("Is the Earth round? (Yes/No)").toUpperCase() != "YES") {
 
@@ -73,7 +73,7 @@ Make sure you install 'mocha' first...
 ~~~
 
 ~~~javascript
-// or as a development dependency for your project:
+// or as a development dependency for your project folder
 
 > npm install --save-dev mocha
 ~~~
